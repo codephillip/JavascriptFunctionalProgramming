@@ -73,7 +73,7 @@ console.log([1, 2, 3, 4].filter(gt3)); // [3, 4];
 
 
 ////////////////////////////////////////////////////
-https://www.youtube.com/watch?v=rRgD1yVwIvE
+//https://www.youtube.com/watch?v=rRgD1yVwIvE
 
 const companies= [
   {name: "Company One", category: "Finance", start: 1981, end: 2004},
@@ -206,3 +206,8 @@ const combined = ages
 
 console.log(combined);
 ////////////////////////////////////////////////////////////
+
+
+const retailCompanies2 = companies.filter(company => company.category === 'Retail');
+console.log(retailCompanies2);
+
